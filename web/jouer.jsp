@@ -6,6 +6,7 @@
             <%
                 boolean saisie = false;
                 // on regarde si on a déjà saisi un nb
+                
                 if (request.getParameter("bt_ok") != null) {
                     // on regarde si le nb saisi est valide
                     try {
